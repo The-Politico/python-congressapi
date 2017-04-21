@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='python-congressapi',
     version='0.0.1',
-    description='A simple Python wrapper for ProPublica\'s congress API',
+    description='A Python wrapper for ProPublica\'s congress API',
     author='Jon McClure',
     author_email='jon.r.mcclure@gmail.com',
     url='',

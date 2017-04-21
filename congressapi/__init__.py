@@ -8,6 +8,7 @@ import requests
 
 
 from .committees import CommitteesClass
+from .members import MembersClass
 
 
 class BaseCongressClient(object):
@@ -32,7 +33,7 @@ class BaseCongressClient(object):
         return response.json()['results']
 
 
-class Congress(BaseCongressClient, CommitteesClass):
+class Congress(BaseCongressClient, CommitteesClass, MembersClass):
     CONGRESS = '115'
 
     def __init__(self, congress=None, **kwargs):
