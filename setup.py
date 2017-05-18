@@ -15,6 +15,8 @@ setup(
         'python-dateutil>=2.1',
         'six>=1.4.1',
         'rfc3987',
+        'marshmallow>=2.13.5',
+        'requests>=2.13.0'
     ),
     classifiers=(
         'Development Status :: 5 - Production/Stable',
