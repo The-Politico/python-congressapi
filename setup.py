@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='python-congressapi',
@@ -6,9 +6,9 @@ setup(
     description='A Python wrapper for ProPublica\'s congress API',
     author='Jon McClure',
     author_email='jon.r.mcclure@gmail.com',
-    url='',
+    url='https://github.com/The-Politico/python-congressapi',
     license="MIT",
-    packages=("congressapi",),
+    packages=find_packages(),
     test_suite="",
     include_package_data=True,
     install_requires=(

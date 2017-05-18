@@ -9,7 +9,8 @@ from congressapi.committees.schema import CommitteeSchema
 
 
 class CommitteesClass(object):
-    def _deserialize_committees_membership(self, response):
+    @staticmethod
+    def _deserialize_committees_membership(response):
         committee = response[0]
         data, errors = CommitteeSchema().load(committee)
         return data
