@@ -15,6 +15,10 @@ $ pip install -e git+https://github.com/The-Politico/python-congressapi.git#egg=
 ## Use
 
 ```python
+import os
+
+from congressapi import Congress
+
 api_key = os.getenv('PROPUBLICA_CONGRESS_API_KEY', None)
 client = Congress(api_key=api_key, congress='115')
 senate = client.get_members('senate')
