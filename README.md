@@ -12,7 +12,7 @@ Until this library is published on pypi, install from github:
 $ pip install -e git+https://github.com/The-Politico/python-congressapi.git#egg=python-congressapi
 ```
 
-##Use
+## Use
 
 ```python
 api_key = os.getenv('PROPUBLICA_CONGRESS_API_KEY', None)
