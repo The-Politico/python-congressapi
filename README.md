@@ -6,7 +6,7 @@ Python wrapper for [ProPublica's Congress API](https://propublica.github.io/cong
 
 ## Install
 
-Until this library is published on pypi, install from github:
+Until this library is published on pypi, install from github or yer local:
 
 ```bash
 $ pip install -e git+https://github.com/The-Politico/python-congressapi.git#egg=python-congressapi
@@ -27,4 +27,4 @@ for senator in senate.members:
   print(senator.last_name)
 ```
 
-See schemas for what's done. Much is not.
+See schemas for what's done. Most isn't.
